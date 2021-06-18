@@ -30,10 +30,7 @@ p {
     margin-left: 20px;
     font-family:sans-serif;
 }
-.spajanje {
-    /* padding: 5px;  */
-    margin: 0px;
-}
+
 i {
     color: white;
     font-size: 25px;
@@ -53,11 +50,14 @@ h2{
 .slicica{
     /* border: 1px solid black; */
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     max-width: 30px;
-
 }
+#ikonica1{
+    justify-content: flex-end;
+    align-items: center;
+    color: green;
+}
+
 .slicica_dva{
     display: flex;
     justify-content: space-between;
