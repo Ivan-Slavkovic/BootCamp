@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prvideo {
+    height: fit-content;
+    width: 55%;
+    margin:  20px 20px;
+}
+h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+p {
+    color: gray;
+    font-size: 17px;
+}
+.drugideo > * {
+    vertical-align: middle;
+    margin: 0px;
+}
+.slika {
+    width: 50%;
+}
+.slika2 {
+    width: 50%;
+    float: right;
+}
+.tekst {
+    width: 45%; 
+    display: inline-block;
+    text-align: center;
+}
+.trecideo > * {
+    vertical-align: middle;
+    margin: 0px;
+}
+.tekst2 {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+button {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: green;
+    width: 200px;
+    height: 40px;
+}
+button:hover {
+    font-weight: bolder;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}

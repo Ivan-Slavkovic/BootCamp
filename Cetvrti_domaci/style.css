@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.noro{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.nunito{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.open{
+    font-family: 'Open Sans', sans-serif;
+}
+.tekst3{
+    font-family: 'Fredericka the Great', cursive;
+}
+.sister{
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.tekst4{
+    font-family: 'Baumans', cursive;
+}
+.faq{
+    width: 700px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 450px;
+    margin-top: 100px;
+    background-color: gray;
+}
+.faq > * {
+    margin: 30px;
+}
+.wrap{
+    display: inline;
+}
+.camila{
+    margin-top: 50px;
+}
+.nesto{
+    display: flex;
+    align-items: center;
+}

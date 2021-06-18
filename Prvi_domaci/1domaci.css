@@ -1,0 +1,66 @@
+img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 10px;
+}
+body {
+    background-color: black;
+}
+.kartica {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 5px ridge rgb(228, 217, 217);
+    border-radius: 20px;
+    width: 350px;
+    max-width: 100%;
+}
+a {
+    font-family: 'Quicksand';
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+p {
+    font-family: 'Quicksand';
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    font-family:sans-serif;
+}
+.spajanje {
+    /* padding: 5px;  */
+    margin: 0px;
+}
+i {
+    color: white;
+    font-size: 25px;
+}
+.paprika {
+    float: right;
+}
+/*.spajanje{
+    visibility: hidden;
+}*/
+h2{
+    color:rgb(228, 217, 217);
+    font-size: 30px;
+    text-align: center;
+    
+}
+.slicica{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 30px;
+
+}
+.slicica_dva{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
