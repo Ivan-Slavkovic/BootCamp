@@ -1,0 +1,59 @@
+.form {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: rgb(116, 116, 196);
+}
+p{
+    font-size: 20px;
+    font-weight: bold;   
+    margin: 5px;
+}
+.name .email .age .input {
+    margin: 10px;
+}
+.name .email .age .input{
+    padding: 5px;
+}
+.input{
+    width: 95%;
+    border-radius: 10px;
+}
+.check_box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* .check_box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} */
+.options{
+    display: flex;
+    flex-direction: column;
+}
+#comment{
+    width: 95%;
+    height: 5rem;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#submit{
+    float: left;
+    width: 95%;
+}
+
+@media screen and (max-width: 700px) {
+    .form{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .form{
+        width: 300px;
+    }
+}
