@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* .page {
+    max-width: 60%;
+    min-width: 40%;
+} */
+.first-thing{
+    height: 10vh;
+    width: 100%;
+}
+.color-theme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* .top{
+    height: 10vh;
+    width: 100%;
+} */
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pic{
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    border: 5px solid black;
+}
+#pic:hover{
+    width: 180px;
+    height: 180px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+    position: relative;
+}
+.main-content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+.table-of-content {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: sticky;
+    top: 100px;
+}
+.table-of-content > a {
+    text-transform: uppercase;
+    margin: 5px;
+    width: 100px;
+    text-decoration: none;
+    font-family: 'Niramit', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.main-content > * {
+    margin: 30px 20px;
+}
+#logo{
+    font-size: 25px;
+}
+#back{
+    transform: rotate(180deg);
+}
+i{
+    font-size: 20px;
+    font-weight: normal;
+}
+#icon {
+    font-size: 2em;
+    margin: 10px;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#name{
+    font-size: 6rem;
+    font-weight: 900;
+    font-family: 'Newsreader', serif;
+    transition: width 1s;
+}
+#name, .tittle{
+    background: 
+    linear-gradient(to right, rgb(40, 169, 70), rgba(100, 200, 200, 1)),
+    linear-gradient(to right, rgb(153, 170, 162), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;;
+}
+#name:hover, #name:focus, .tittle:hover, .tittle:focus{
+    background-size: 0 0.1em, 100% 0.1em;
+}
+.tittle{
+    font-family: 'Newsreader', serif;
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.subtittle {
+    font-family: 'Newsreader', serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.slide {
+    color: #000;   
+}
+.btn{
+    /* border: 1px solid black; */
+    background-color: white;
+    color: white;
+    background: black;
+    width: 20em;
+    height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.shake {
+    width: 10px;
+}
+.btn:hover > .shake{
+    animation: shake .5s infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px);}
+    10% { transform: translate(0px, 1px);}
+    20% { transform: translate(0px, 2px);}
+    30% { transform: translate(0px, 2px);}
+    40% { transform: translate(0px, 2px);}
+    50% { transform: translate(0px, 2px);}
+    60% { transform: translate(0px, 2px);}
+    70% { transform: translate(0px, 2px);}
+    80% { transform: translate(0px, 1px);}
+    90% { transform: translate(0px, 1px);}
+    100% { transform: translate(0px, 0px);}
+  }
