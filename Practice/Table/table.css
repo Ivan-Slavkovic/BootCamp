@@ -1,0 +1,38 @@
+tr > td {
+    background-color: aquamarine;
+}
+tr > th {
+    background-color: rgb(61, 165, 230);
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid rgb(206, 197, 197);
+    margin: auto;
+    width: 800px;
+}
+#blue, #main{
+    background-color: rgb(65, 213, 213);
+}
+#main {
+    height: 30px;
+    text-align: center;
+    font-weight: 50;
+}
+#blue {
+    height: 20px;
+}
+#items {
+    height: 60px;
+    text-align: center;
+    overflow: visible;
+    padding: 10px;
+    font-weight: normal;
+
+}
+.last-one{
+    background-color: rgb(65, 72, 65);
+}
+.last-one > th{
+    background-color: rgb(94, 187, 94);
+}
