@@ -37,10 +37,7 @@ body{
     padding: 0px 10px;
     float: right;
 }
-.box{
-    border: 1px solid black;
-    height: 100vh;
-}
+
 .pizza_pic{
     font-size: 4.5em;
     color: antiquewhite;
@@ -137,8 +134,15 @@ body{
     position: relative;
     background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGFibGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80); 
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tab_1_text > * {
+    font-family: "PT Sans Narrow";
+}
+.tab_1_text > p {
+    font-family: "Open Sans";
+    font-size: 17px;
 }
 .picture_1 {
     width: 350px;
@@ -216,4 +220,63 @@ body{
 }
 .pizza_btn > h3 {
     font-size: 20px;
+}
+.about_us{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7t41yjjtyl06iS0Te-pTxJOCNDtVjpHDCJg&usqp=CAU);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.about_us_first {
+    margin: 5px 10px 10px 5px;
+    /* padding: 5px; */
+}
+.about_us_first > h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+}
+.about_us_first > h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.about_us_first > h4 {
+    font-size: 17px;
+    font-weight: normal;
+}
+.about_us_first .about_us_second {
+    padding: 15px;
+}
+.box{
+    border: 1px solid;
+    margin: 10px 10px 10px 15px;
+    padding: 15px;
+}
+.comment{
+    margin: 10px 10px 10px 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.person {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.person_desc > h4{
+    margin: 0;
+    padding-left: 10px;
+}
+.person_desc > p {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.box1 {
+    border: 1px solid black;
+    height: 100vh;
 }
