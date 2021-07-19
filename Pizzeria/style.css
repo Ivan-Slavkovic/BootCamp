@@ -275,8 +275,38 @@ body{
     padding-left: 10px;
     padding-top: 5px;
 }
-
 .box1 {
     border: 1px solid black;
     height: 100vh;
+}
+.menu_items{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: none; */
+}
+#pizza {
+    display: none;
+}
+#pasta {
+    display: none;
+}
+#desserts {
+    display: none;
+}
+#burgers {
+    display: none;
+}
+#drinks {
+    display: none;
+}
+#salads {
+    display: none;
+}
+.pizza_btn {
+    flex: 1 0 21%;
+}
+.image{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
